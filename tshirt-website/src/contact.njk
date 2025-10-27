@@ -1,0 +1,18 @@
+{% set title = "ComfyTees | Contact" %}
+{% extends "layout.njk" %}
+
+{% block content %}
+<section class="contact">
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you! Fill out the form below or reach us at:</p>
+  <p><strong>Email:</strong> support@comfytees.com</p>
+  <p><strong>Phone:</strong> (123) 456-7890</p>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+{% endblock %}
