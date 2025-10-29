@@ -536,4 +536,11 @@ main section {
     text-align: left;
     display: inline-block;
   }
+
+  /* --- Disabled Button Style --- */
+.btn-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none; /* Prevents clicks entirely */
+}
 }
