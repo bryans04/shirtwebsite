@@ -5,14 +5,31 @@ title: ComfyTees | Shop
 
 <section class="shop">
   <h1 class="section-title">Shop Our T-Shirts</h1>
+  {% set items = products %}
+  {# Fallback to possible collection name (if Eleventy created a collection from 'product' folder) #}
+  {% if not items and collections and collections.product %}
+    {% set items = collections.product %}
+  {% endif %}
+
   <div class="product-grid">
-    {% for p in products %}
-    <div class="product-card">
-      <img src="{{ p.image }}" alt="{{ p.alt }}">
-      <h3>{{ p.title }}</h3>
-      <p class="product-price">${{ p.price }}</p>
-      <a href="/product/{{ p.slug }}/" class="btn btn-secondary btn-small">View Details</a>
-    </div>
-    {% endfor %}
+    {% if not items or items | length == 0 %}
+      <p class="muted">No products available.</p>
+    {% else %}
+      {% for p in items %}
+        {# Normalize item shape: allow raw data objects or Eleventy collection items with `.data` #}
+        {% if p.title %}
+          {% set item = p %}
+        {% else %}
+          {% set item = p.data or p %}
+        {% endif %}
+
+        <div class="product-card">
+          <img src="{{ item.image }}" alt="{{ item.alt }}">
+          <h3>{{ item.title }}</h3>
+          <p class="product-price">${{ item.price }}</p>
+          <a href="/product/{{ item.slug }}/" class="btn btn-secondary btn-small">View Details</a>
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
 </section>
