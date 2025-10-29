@@ -1,10 +1,33 @@
-<header>
-  <nav>
-    <a href="/">Home</a> |
-    <a href="/product/">Products</a> |
-    <a href="/about/">About</a> |
-    <a href="/reviews/">Reviews</a> |
-    <a href="/shop/">Shop</a> |
-    <a href="/contact/">Contact</a>
-  </nav>
+<!-- 
+  UPDATED HEADER:
+  - Adds a "logo" element with a simple SVG for the "CT" monogram.
+  - Wraps nav links in a <nav> tag for semantic HTML.
+  - Adds a "header-actions" div for the "Shop Now" button.
+-->
+<header class="site-header">
+  <div class="header-content">
+    <a href="/" class="logo" aria-label="ComfyTees Homepage">
+      <!-- This is the "CT" monogram logo -->
+      <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M45 20C45 14.4772 40.5228 10 35 10C29.4772 10 25 14.4772 25 20V80C25 85.5228 29.4772 90 35 90C40.5228 90 45 85.5228 45 80V20Z" fill="#222222"/>
+        <path d="M25 50C25 44.4772 29.4772 40 35 40H75C80.5228 40 85 44.4772 85 50C85 55.5228 80.5228 60 75 60H35C29.4772 60 25 55.5228 25 50Z" fill="#222222"/>
+      </svg>
+      <span>ComfyTees</span>
+    </a>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/product/">Products</a>
+      <a href="/about/">About</a>
+      <a href="/reviews/">Reviews</a>
+      <a href="/shop/">Shop</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+
+    <!-- Header Actions (like Cart or Shop Button) -->
+    <div class="header-actions">
+      <a href="/shop/" class="btn btn-small">Shop Now</a>
+    </div>
+  </div>
 </header>
