@@ -1,13 +1,14 @@
-{% set title = "ComfyTees | Classic Comfort Tee" %}
-{% extends "layout.njk" %}
+---
+layout: layout.njk
+title: ComfyTees | Classic Comfort Tee
+---
 
-{% block content %}
 <section class="product-page">
-  <h1 class="visually-hidden">Product Details</h1> {# Hidden for accessibility, main content below #}
+  <h1 class="visually-hidden">Product Details</h1>
   <div class="product-details">
     <img src="/images/tshirt1.jpg" alt="Classic Comfort Tee - Man in grey t-shirt">
     <div class="info">
-      <h2>The Classic Comfort Tee <span class="product-price-display">$25.00</span></h2> {# Display price next to title #}
+      <h2>The Classic Comfort Tee <span class="product-price-display">$25.00</span></h2>
       <p class="tagline">Your essential foundation for effortless style.</p>
       <p>Experience the unparalleled softness of our Classic Comfort Tee, meticulously crafted from <strong>100% organic cotton</strong>. Designed for the everyday, its breathable fabric and perfect fit make it an instant favorite, providing enduring comfort that never goes out of style.</p>
       
@@ -21,16 +22,15 @@
       </ul>
 
       <div class="product-actions">
-        <a href="/shop/" class="btn btn-primary">Add to Cart</a> {# Changed to 'Add to Cart' #}
+        <a href="/shop/" class="btn btn-primary">Add to Cart</a>
         <p class="availability">More colors and sizes available soon! For inquiries, <a href="/contact/">contact us</a>.</p>
       </div>
     </div>
   </div>
 
-  {# Optional: Add a section for testimonials related to this specific product #}
   <section class="product-testimonials">
     <h2 class="section-title">What Our Customers Say</h2>
-    <div class="review-grid"> {# Re-using existing review-grid styling #}
+    <div class="review-grid">
       <div class="review">
         <p>“Truly the best tee I own. The comfort is unmatched, and it holds up perfectly.”</p>
         <span>– Alex M. ⭐⭐⭐⭐⭐</span>
@@ -41,6 +41,4 @@
       </div>
     </div>
   </section>
-
 </section>
-{% endblock %}

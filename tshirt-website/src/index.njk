@@ -1,7 +1,8 @@
-{% set title = "ComfyTees | Home" %}
-{% extends "layout.njk" %}
+---
+layout: layout.njk
+title: ComfyTees | Home
+---
 
-{% block content %}
 <section class="hero">
   <h1>Welcome to ComfyTees</h1>
   <p>Comfortable, stylish, and eco-friendly t-shirts for everyone.</p>
@@ -36,15 +37,14 @@
       <img src="/images/tshirt2.jpg" alt="Eco-Friendly Tee - Woman in green t-shirt">
       <h3>Eco-Friendly Tee</h3>
       <p class="product-price">$28.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a> {# Updated: Now a disabled button #}
+      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
     </div>
     
     <div class="product-card">
       <img src="/images/tshirt3.jpg" alt="Soft Summer Tee - Woman in peach t-shirt on beach">
       <h3>Soft Summer Tee</h3>
       <p class="product-price">$22.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a> {# Updated: Now a disabled button #}
+      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
     </div>
   </div>
 </section>
-{% endblock %}
