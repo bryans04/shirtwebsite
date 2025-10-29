@@ -5,7 +5,7 @@
   <!-- Mobile-friendly design -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>ComfyTees | Home</title>
+  <title>ComfyTees | Eco-Friendly Tee</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
   
   <!-- Site CSS -->
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/product/eco-friendly/">
 </head>
 <body>
 
@@ -56,50 +56,56 @@
   <main>
     <!-- Page content gets injected here -->
     
-<section class="hero">
-  <h1>Welcome to ComfyTees</h1>
-  <p>Comfortable, stylish, and eco-friendly t-shirts for everyone.</p>
-  <a href="/shop/" class="btn btn-primary">Shop Now</a>
-</section>
+<section class="product-page">
+  <h1 class="visually-hidden">Product Details</h1>
+  <div class="product-details">
+    <img src="/images/tshirt2.jpg" alt="Eco-Friendly Tee - Woman in green t-shirt">
+    <div class="info">
+      <h2>The Eco-Friendly Tee <span class="product-price-display">$28.00</span></h2>
+      <p class="tagline">Sustainably soft—made for mindful everyday wear.</p>
+      <p>Our Eco-Friendly Tee is made from a premium blend of recycled and organic fibers, delivering a soft handfeel while reducing environmental impact. Thoughtfully designed with a modern cut that works for any wardrobe.</p>
+      
+      <h3>Key Features:</h3>
+      <ul>
+        <li>🌿  <strong>Recycled & Organic Blend:</strong> Low-impact materials that feel great on the skin.</li>
+        <li>♻️  <strong>Eco-Conscious Production:</strong> Reduced water and energy usage during manufacturing.</li>
+        <li>🧵  <strong>Built to Last:</strong> Reinforced seams for lasting wear.</li>
+        <li>📏  <strong>Modern Slim Fit:</strong> A contemporary cut for everyday styling.</li>
+      </ul>
 
-<section class="features">
-  <div class="feature-item">
-    <h2>🌿 Conscious Craft</h2>
-    <p>All our t-shirts are made with 100% organic cotton.</p>
+      <div class="product-actions">
+        <a href="/shop/" class="btn btn-primary">Add to Cart</a>
+        <a href="/product/" class="btn btn-link">Back to products</a>
+        <p class="availability">Limited stock available — sign up for restocks via <a href="/contact/">contact</a>.</p>
+      </div>
+    </div>
   </div>
-  <div class="feature-item">
-    <h2>💧 Breathable & Soft</h2>
-    <p>Perfect for all-day comfort in any season.</p>
-  </div>
-  <div class="feature-item">
-    <h2>🧵 Refined Quality</h2>
-    <p>Long-lasting quality that keeps its shape and color.</p>
-  </div>
-</section>
 
-<section class="featured-products">
-  <h2 class="section-title">Featured Products</h2>
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="/images/tshirt1.jpg" alt="Classic Comfort Tee - Man in grey t-shirt">
-      <h3>Classic Comfort Tee</h3>
-      <p class="product-price">$25.00</p>
-      <a href="/product/" class="btn btn-secondary btn-small">View Details</a>
+  <section class="product-testimonials">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Eco-Friendly Tee",
+    "image": ["/images/tshirt2.jpg"],
+    "description": "Our Eco-Friendly Tee is made from a premium blend of recycled and organic fibers.",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "28.00",
+      "availability": "https://schema.org/InStock",
+      "url": "/product/eco-friendly/"
+    }
+  }
+  </script>
+    <h2 class="section-title">What Customers Say</h2>
+    <div class="review-grid">
+      <div class="review">
+        <p>“Feels amazing and I love that it's made sustainably.”</p>
+        <span>– Jamie R. ⭐⭐⭐⭐⭐</span>
+      </div>
     </div>
-    <div class="product-card">
-      <img src="/images/tshirt2.jpg" alt="Eco-Friendly Tee - Woman in green t-shirt">
-      <h3>Eco-Friendly Tee</h3>
-      <p class="product-price">$28.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
-    </div>
-    
-    <div class="product-card">
-      <img src="/images/tshirt3.jpg" alt="Soft Summer Tee - Woman in peach t-shirt on beach">
-      <h3>Soft Summer Tee</h3>
-      <p class="product-price">$22.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
-    </div>
-  </div>
+  </section>
 </section>
 
   </main>

@@ -5,7 +5,7 @@
   <!-- Mobile-friendly design -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>ComfyTees | Home</title>
+  <title>ComfyTees | Graphic Tee</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
   
   <!-- Site CSS -->
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/product/graphic-tee/">
 </head>
 <body>
 
@@ -56,50 +56,49 @@
   <main>
     <!-- Page content gets injected here -->
     
-<section class="hero">
-  <h1>Welcome to ComfyTees</h1>
-  <p>Comfortable, stylish, and eco-friendly t-shirts for everyone.</p>
-  <a href="/shop/" class="btn btn-primary">Shop Now</a>
+<section class="product-page">
+  <h1 class="visually-hidden">Product Details</h1>
+  <div class="product-details">
+    <img src="https://placehold.co/600x600/F3F4F6/222222?text=Graphic+Tee" alt="Graphic Tee">
+    <div class="info">
+      <h2>The Graphic Tee <span class="product-price-display">$30.00</span></h2>
+      <p class="tagline">A statement tee with limited-edition prints.</p>
+      <p>Our Graphic Tee features exclusive artwork printed using eco-friendly inks. Each drop is limited—grab yours before it sells out.</p>
+      
+      <h3>Key Features:</h3>
+      <ul>
+        <li>🎨  <strong>Exclusive Prints:</strong> Limited-run designs you won't find elsewhere.</li>
+        <li>🌿  <strong>Eco Ink Printing:</strong> Soft print with responsible materials.</li>
+        <li>🧵  <strong>Premium Fabric:</strong> Maintains shape and color over time.</li>
+        <li>📏  <strong>True-to-Size:</strong> Order your regular size for the best fit.</li>
+      </ul>
+
+      <div class="product-actions">
+        <a href="/shop/" class="btn btn-primary">Add to Cart</a>
+        <a href="/product/" class="btn btn-link">Back to products</a>
+        <p class="availability">Limited edition — shipping in 1–2 business days.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="features">
-  <div class="feature-item">
-    <h2>🌿 Conscious Craft</h2>
-    <p>All our t-shirts are made with 100% organic cotton.</p>
-  </div>
-  <div class="feature-item">
-    <h2>💧 Breathable & Soft</h2>
-    <p>Perfect for all-day comfort in any season.</p>
-  </div>
-  <div class="feature-item">
-    <h2>🧵 Refined Quality</h2>
-    <p>Long-lasting quality that keeps its shape and color.</p>
-  </div>
-</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Graphic Tee",
+  "image": ["https://placehold.co/600x600/F3F4F6/222222?text=Graphic+Tee"],
+  "description": "Our Graphic Tee features exclusive artwork printed using eco-friendly inks. Each drop is limited.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "30.00",
+    "availability": "https://schema.org/InStock",
+    "url": "/product/graphic-tee/"
+  }
+}
+</script>
 
-<section class="featured-products">
-  <h2 class="section-title">Featured Products</h2>
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="/images/tshirt1.jpg" alt="Classic Comfort Tee - Man in grey t-shirt">
-      <h3>Classic Comfort Tee</h3>
-      <p class="product-price">$25.00</p>
-      <a href="/product/" class="btn btn-secondary btn-small">View Details</a>
-    </div>
-    <div class="product-card">
-      <img src="/images/tshirt2.jpg" alt="Eco-Friendly Tee - Woman in green t-shirt">
-      <h3>Eco-Friendly Tee</h3>
-      <p class="product-price">$28.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
-    </div>
-    
-    <div class="product-card">
-      <img src="/images/tshirt3.jpg" alt="Soft Summer Tee - Woman in peach t-shirt on beach">
-      <h3>Soft Summer Tee</h3>
-      <p class="product-price">$22.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
-    </div>
-  </div>
 </section>
 
   </main>

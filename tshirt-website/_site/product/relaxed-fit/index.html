@@ -5,7 +5,7 @@
   <!-- Mobile-friendly design -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>ComfyTees | Home</title>
+  <title>ComfyTees | Relaxed Fit Tee</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
   
   <!-- Site CSS -->
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/product/relaxed-fit/">
 </head>
 <body>
 
@@ -56,50 +56,49 @@
   <main>
     <!-- Page content gets injected here -->
     
-<section class="hero">
-  <h1>Welcome to ComfyTees</h1>
-  <p>Comfortable, stylish, and eco-friendly t-shirts for everyone.</p>
-  <a href="/shop/" class="btn btn-primary">Shop Now</a>
+<section class="product-page">
+  <h1 class="visually-hidden">Product Details</h1>
+  <div class="product-details">
+    <img src="https://placehold.co/600x600/F3F4F6/222222?text=Relaxed+Fit" alt="Relaxed Fit Tee">
+    <div class="info">
+      <h2>The Relaxed Fit Tee <span class="product-price-display">$24.00</span></h2>
+      <p class="tagline">Roomy, laid-back comfort for everyday wear.</p>
+      <p>The Relaxed Fit Tee is cut with a slightly looser silhouette for ultimate ease of movement. It’s a great go-to for casual days or layering under jackets and overshirts.</p>
+      
+      <h3>Key Features:</h3>
+      <ul>
+        <li>🛋️  <strong>Relaxed Silhouette:</strong> Comfortable and easy to style.</li>
+        <li>🌬️  <strong>Breathable Fabric:</strong> Keeps you comfortable all day.</li>
+        <li>🧵  <strong>Durable Construction:</strong> Made to hold its shape through washes.</li>
+        <li>📏  <strong>Casual Sizing:</strong> Consider sizing down for a more fitted look.</li>
+      </ul>
+
+      <div class="product-actions">
+        <a href="/shop/" class="btn btn-primary">Add to Cart</a>
+        <a href="/product/" class="btn btn-link">Back to products</a>
+        <p class="availability">Available now in classic colors.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="features">
-  <div class="feature-item">
-    <h2>🌿 Conscious Craft</h2>
-    <p>All our t-shirts are made with 100% organic cotton.</p>
-  </div>
-  <div class="feature-item">
-    <h2>💧 Breathable & Soft</h2>
-    <p>Perfect for all-day comfort in any season.</p>
-  </div>
-  <div class="feature-item">
-    <h2>🧵 Refined Quality</h2>
-    <p>Long-lasting quality that keeps its shape and color.</p>
-  </div>
-</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Relaxed Fit Tee",
+  "image": ["https://placehold.co/600x600/F3F4F6/222222?text=Relaxed+Fit"],
+  "description": "The Relaxed Fit Tee is cut with a slightly looser silhouette for ultimate ease of movement.",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "24.00",
+    "availability": "https://schema.org/InStock",
+    "url": "/product/relaxed-fit/"
+  }
+}
+</script>
 
-<section class="featured-products">
-  <h2 class="section-title">Featured Products</h2>
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="/images/tshirt1.jpg" alt="Classic Comfort Tee - Man in grey t-shirt">
-      <h3>Classic Comfort Tee</h3>
-      <p class="product-price">$25.00</p>
-      <a href="/product/" class="btn btn-secondary btn-small">View Details</a>
-    </div>
-    <div class="product-card">
-      <img src="/images/tshirt2.jpg" alt="Eco-Friendly Tee - Woman in green t-shirt">
-      <h3>Eco-Friendly Tee</h3>
-      <p class="product-price">$28.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
-    </div>
-    
-    <div class="product-card">
-      <img src="/images/tshirt3.jpg" alt="Soft Summer Tee - Woman in peach t-shirt on beach">
-      <h3>Soft Summer Tee</h3>
-      <p class="product-price">$22.00</p>
-      <a class="btn btn-secondary btn-small btn-disabled">Coming Soon</a>
-    </div>
-  </div>
 </section>
 
   </main>

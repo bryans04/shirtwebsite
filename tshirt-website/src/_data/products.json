@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Classic Comfort Tee",
+    "slug": "classic-comfort",
+    "price": "25.00",
+    "image": "/images/tshirt1.jpg",
+    "alt": "Classic Comfort Tee - Man in grey t-shirt",
+    "tagline": "Your essential foundation for effortless style.",
+    "description": "Experience the unparalleled softness of our Classic Comfort Tee, meticulously crafted from 100% organic cotton. Designed for the everyday, its breathable fabric and perfect fit make it an instant favorite.",
+    "features": [
+      "Premium Organic Cotton",
+      "Breathable & Lightweight",
+      "Refined Durability",
+      "Flattering Universal Fit"
+    ]
+  },
+  {
+    "title": "Eco-Friendly Tee",
+    "slug": "eco-friendly",
+    "price": "28.00",
+    "image": "/images/tshirt2.jpg",
+    "alt": "Eco-Friendly Tee - Woman in green t-shirt",
+    "tagline": "Sustainably soft—made for mindful everyday wear.",
+    "description": "Our Eco-Friendly Tee is made from a premium blend of recycled and organic fibers, delivering a soft handfeel while reducing environmental impact.",
+    "features": ["Recycled & Organic Blend","Eco-Conscious Production","Built to Last","Modern Slim Fit"]
+  },
+  {
+    "title": "Soft Summer Tee",
+    "slug": "soft-summer",
+    "price": "22.00",
+    "image": "/images/tshirt3.jpg",
+    "alt": "Soft Summer Tee - Woman in peach t-shirt on beach",
+    "tagline": "Lightweight comfort for sunny days.",
+    "description": "The Soft Summer Tee is crafted from a breathable, airy knit that keeps you comfortable during warm-weather outings.",
+    "features": ["Ultra-Breathable Fabric","Soft Drape","Easy Care","Relaxed Fit"]
+  },
+  {
+    "title": "Organic V-Neck Tee",
+    "slug": "organic-v-neck",
+    "price": "26.00",
+    "image": "https://placehold.co/600x600/F3F4F6/222222?text=Organic+V-Neck",
+    "alt": "Organic V-Neck Tee",
+    "tagline": "A classic v-neck crafted with organic materials.",
+    "description": "Our Organic V-Neck Tee offers a refined neckline and a soft handfeel thanks to 100% certified organic cotton.",
+    "features": ["100% Organic Cotton","Refined Neckline","Neat Finishing","True-to-Size"]
+  },
+  {
+    "title": "Relaxed Fit Tee",
+    "slug": "relaxed-fit",
+    "price": "24.00",
+    "image": "https://placehold.co/600x600/F3F4F6/222222?text=Relaxed+Fit",
+    "alt": "Relaxed Fit Tee",
+    "tagline": "Roomy, laid-back comfort for everyday wear.",
+    "description": "The Relaxed Fit Tee is cut with a slightly looser silhouette for ultimate ease of movement.",
+    "features": ["Relaxed Silhouette","Breathable Fabric","Durable Construction","Casual Sizing"]
+  },
+  {
+    "title": "Graphic Tee",
+    "slug": "graphic-tee",
+    "price": "30.00",
+    "image": "https://placehold.co/600x600/F3F4F6/222222?text=Graphic+Tee",
+    "alt": "Graphic Tee",
+    "tagline": "A statement tee with limited-edition prints.",
+    "description": "Our Graphic Tee features exclusive artwork printed using eco-friendly inks. Each drop is limited—grab yours before it sells out.",
+    "features": ["Exclusive Prints","Eco Ink Printing","Premium Fabric","True-to-Size"]
+  }
+]
