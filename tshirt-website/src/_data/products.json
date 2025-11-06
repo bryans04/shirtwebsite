@@ -33,35 +33,5 @@
     "tagline": "Lightweight comfort for sunny days.",
     "description": "The Soft Summer Tee is crafted from a breathable, airy knit that keeps you comfortable during warm-weather outings.",
     "features": ["Ultra-Breathable Fabric","Soft Drape","Easy Care","Relaxed Fit"]
-  },
-  {
-    "title": "Organic V-Neck Tee",
-    "slug": "organic-v-neck",
-    "price": "26.00",
-    "image": "https://placehold.co/600x600/F3F4F6/222222?text=Organic+V-Neck",
-    "alt": "Organic V-Neck Tee",
-    "tagline": "A classic v-neck crafted with organic materials.",
-    "description": "Our Organic V-Neck Tee offers a refined neckline and a soft handfeel thanks to 100% certified organic cotton.",
-    "features": ["100% Organic Cotton","Refined Neckline","Neat Finishing","True-to-Size"]
-  },
-  {
-    "title": "Relaxed Fit Tee",
-    "slug": "relaxed-fit",
-    "price": "24.00",
-    "image": "https://placehold.co/600x600/F3F4F6/222222?text=Relaxed+Fit",
-    "alt": "Relaxed Fit Tee",
-    "tagline": "Roomy, laid-back comfort for everyday wear.",
-    "description": "The Relaxed Fit Tee is cut with a slightly looser silhouette for ultimate ease of movement.",
-    "features": ["Relaxed Silhouette","Breathable Fabric","Durable Construction","Casual Sizing"]
-  },
-  {
-    "title": "Graphic Tee",
-    "slug": "graphic-tee",
-    "price": "30.00",
-    "image": "https://placehold.co/600x600/F3F4F6/222222?text=Graphic+Tee",
-    "alt": "Graphic Tee",
-    "tagline": "A statement tee with limited-edition prints.",
-    "description": "Our Graphic Tee features exclusive artwork printed using eco-friendly inks. Each drop is limited—grab yours before it sells out.",
-    "features": ["Exclusive Prints","Eco Ink Printing","Premium Fabric","True-to-Size"]
   }
 ]
